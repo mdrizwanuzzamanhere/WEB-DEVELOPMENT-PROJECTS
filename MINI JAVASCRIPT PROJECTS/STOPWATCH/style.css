@@ -1,0 +1,77 @@
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0 ;
+    padding: 0 ;
+}
+
+body{
+    background: linear-gradient(to bottom right , red , yellow ) no-repeat center center / cover ;
+    height: 100vh  ;
+    width: 100%;
+}
+
+.container{
+    display: flex ;
+    justify-content: center;
+    align-items: center ;
+    flex-direction: column;
+    height: 620px ;
+    color: white ;
+}
+.box{
+    border-radius: 30px;
+    background-color: black ;
+    display: flex ;
+    justify-content: center;
+    align-items: center ;
+    flex-direction: column;
+    width: 700px ;
+    margin: 10px auto;
+    padding: 40px 40px;
+    border: 3px solid black;
+}
+
+#output{
+    font-size: 85px ;
+    font-weight: bold;
+}
+.buttons{
+    display: flex ;
+    justify-content: center;
+    align-items: center ;
+    flex-direction: row;
+}
+
+.buttons button{
+    font-size: 50px;
+    padding: 3px 5px ;
+    margin: 51px 10px ;
+    border: none ;
+    color: black  ;
+    width: 200px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#stop-btn{
+    background-color: rgb(255, 31, 31);
+}
+#stop-btn:hover{
+    background-color: rgb(218, 17, 17);
+}
+
+#start-btn{
+    background-color: rgb(12, 235, 12);
+
+}
+#start-btn:hover{
+    background-color: rgb(10, 209, 10);
+}
+
+#reset-btn{
+    background-color: yellow;
+
+}
+#reset-btn:hover{
+    background-color: rgb(221, 221, 2);
+}
